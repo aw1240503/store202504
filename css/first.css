@@ -1,0 +1,300 @@
+@charset "utf-8";
+body{
+    background-color: burlywood;
+}
+header{
+    display: flex;
+}
+.he_img{
+    display: flex;
+}
+header h1{
+    width: 400px;
+    padding-left: 30px;
+    font-size: 70px;
+}
+.aaaa {
+    width: 180px;
+    height: 200px;
+    padding-top: 3px;
+}
+
+
+nav ul{
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 60px;
+}
+nav ul li{
+    padding-left: 35px;
+    float: left;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+
+#first_img img{
+    width: 1000px;
+    margin-left: 280px;
+}
+#first_text{
+    text-align: center;
+}
+#first{
+    display: flex;
+    margin-left: 300px;
+}
+#first_text2 h2{
+    margin-top: 60px;
+}
+#first_text2 p{
+    width: 440px;
+    margin-top: 40px;
+}
+#first_img2 img{
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 10px;
+    box-shadow: 15px 15px 20px #666666;
+}
+#first_logo{
+    display: flex;
+    margin-left: 590px;
+    padding-top: 20px;
+}
+#first_logo h2{
+    text-align: center;
+}
+#first_logo img{
+    width: 100px;
+    margin-left: 60px;
+}
+#first_text3{
+    display: flex;
+    text-align: center;
+    margin-left: 500px;
+    padding-bottom: 70px;
+}
+#first_text3 p{
+    width: 500px;
+    margin-left: 40px;
+}
+#first_logo2{
+    display: flex;
+    margin-left: 250px;
+}
+#first_img3 img{
+    width: 150px;
+    margin-left: 20px;
+}
+#first_text4{
+    text-align: center;
+}
+#o{
+    background-color: #bfa07b;
+    text-align: center;
+    width: 1000px;
+    margin-left: 300px;
+    border-radius: 50px;
+}
+#o h2{
+    color: #dd2623;
+}
+
+
+#top{
+    margin-left: 1400px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    background-color: #c6b299;
+    height: 350px;
+}
+#f{
+    display: flex;
+}
+.foo{
+    display: flex;
+}
+#fo_img img{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#fo_logo h1{
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+.foo_t{
+    display: flex;
+}
+#fo_text{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#fo_text2{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#copy{
+    text-align: center;
+}
+
+
+@media screen and (max-width:500px){
+    header {
+        display: block;
+      }
+      .he_img{
+      display: flex;
+      }
+      .he_img h1{
+      margin-top: 30px;
+      }
+      .aaaa {
+        width: 100px;
+        height: auto;
+        padding-top: 10px;
+        display: block;
+      }
+      header h1 {
+        width: auto;
+        padding-left: 0;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+    
+      nav {
+        width: 100%;
+        text-align: center;
+        padding-top: 10px
+      }
+      nav ul {
+        padding-top: 0;
+      }
+      nav ul li {
+        float: none;
+        padding-left: 0;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+    #first_img img{
+        width: 350px;
+        margin-left: 60px;
+    }
+    #first_text{
+        text-align: center;
+    }
+    #first{
+        display: block;
+        margin-left: 25px;
+    }
+    #first_text2 h2{
+        margin-top: 60px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #first_text2 p{
+        width: 400px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+    #first_img2 img{
+        width: 400px;
+        margin-left: 5px;
+    }
+    #first_logo{
+        margin-left: 60px;
+        width: 330px;
+    }
+    #first_logo img{
+        width: 50px;;
+        margin-left: 0px;
+    }
+    #first_text3{
+        text-align: center;
+        margin-left: 30px;
+    }
+    #first_text3 p{
+        width: 400px;
+        margin-left: 0px;
+    }
+    #first_logo2{
+        margin-left: 0px;
+    }
+    #first_img3 img{
+        width: 70px;
+        margin-left: 0px;
+    }
+    #first_text4{
+       width: 450px;
+       margin-right: 180px;
+    }
+    #first_text4 h2{
+        text-align: center;
+    }
+    #first_text4 p{
+        width: 350px;
+    }
+
+
+    #o{
+        width: 440px;
+        margin-left: 10px;
+    }
+    
+
+    #top{
+       margin-left: 330px;
+    }
+
+
+    footer {
+        height: 330px;
+      }
+       #f {
+        display: block;
+       }
+       .foo{
+        display: flex;
+       }
+       .foo h1{
+        margin-left: 0;
+       }
+       #fo_img img {
+        width: 90px;
+        margin-left: 10px;
+        margin-top: 10px;
+       }
+       #fo_logo h1 {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 10px;
+       }
+       .foo_t{
+        display: flex;
+       }
+       #fo_text {
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 0;
+       }
+       #fo_text2 {
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 100px;
+       }
+      
+       #copy {
+        padding-top: 0px;
+       }
+  }
