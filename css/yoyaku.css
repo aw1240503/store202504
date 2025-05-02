@@ -1,0 +1,282 @@
+@charset "utf-8";
+body{
+    background-color: burlywood;
+}
+header{
+    display: flex;
+}
+.he_img{
+    display: flex;
+}
+header h1{
+    width: 400px;
+    padding-left: 30px;
+    font-size: 70px;
+}
+.aaaa {
+    width: 180px;
+    height: 200px;
+    padding-top: 3px;
+}
+
+nav ul{
+    list-style-type: none;
+    font-size: 25px;
+    padding-top: 60px;
+}
+nav ul li{
+    padding-left: 35px;
+    float: left;
+}
+nav ul li a:hover{
+    color: blue;
+}
+
+#yoyaku{
+    text-align: center;
+}
+#yoyaku_1{
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    margin-left: 300px;
+}
+#yoyaku_text{
+    text-align: center;
+}
+#yoyaku_2{
+    border-bottom: 1px solid #000;
+    width: 1000px;
+    margin-left: 300px;
+}
+#contact{
+    text-align: center;
+}
+#contact_1{
+    text-align: center;
+}
+.Form {
+    margin-top: 80px;
+    margin-left: 500px;
+    margin-right: auto;
+}
+.Form-Item-Input{
+    width: 600px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px #666666;
+}
+.Form-Item-Textarea{
+    border-radius: 10px;
+    width: 600px;
+    height: 40px;
+    box-shadow: 15px 15px 20px #666666;
+}
+.Form-Btn{
+    font-size: 15px;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+#top{
+    margin-left: 1400px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #c6b299;
+    height: 350px;
+}
+#f{
+    display: flex;
+}
+.foo{
+    display: flex;
+}
+#fo_img img{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+#fo_logo h1{
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+.foo_t{
+    display: flex;
+}
+#fo_text{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#fo_text2{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+#copy{
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    header {
+      display: block;
+    }
+    .he_img{
+    display: flex;
+    }
+    .he_img h1{
+    margin-top: 30px;
+    }
+    .aaaa {
+      width: 150px;
+      height: auto;
+      padding-top: 10px;
+      display: block;
+    }
+    header h1 {
+      width: auto;
+      padding-left: 0;
+      font-size: 50px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  
+    nav {
+      width: 100%;
+      text-align: center;
+      padding-top: 10px
+    }
+    nav ul {
+      padding-top: 0;
+    }
+    nav ul li {
+      float: none;
+      padding-left: 0;
+      margin-right: 0;
+      margin-bottom: 10px;
+      display: block;
+    }
+
+    #yoyaku_1{
+        width: 470px;
+        margin-left: 0px;
+    }
+    #yoyaku_2{
+        width: 470px;
+        margin-left: 0px;
+    }
+
+    .Form {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .Form-Item-Input{
+        width: 450px;
+        height: 40px;
+    }
+    .Form-Item-Textarea{
+        width: 450px;
+    }
+    .Form-Btn{
+        margin-left: 180px;
+    }
+
+    #top{
+        margin-left: 330px;
+    }
+    #f {
+       display: block;
+    }
+    .foo{
+       display: flex;
+    }
+    .foo h1{
+       margin-left: 0;
+    }
+    #fo_img img {
+       width: 90px;
+       margin-left: 10px;
+       margin-top: 10px;
+    }
+    #fo_logo h1 {
+       margin-top: 20px;
+       margin-left: 10px;
+    }
+    .foo_t{
+       display: flex;
+    }
+    #fo_text {
+       width: 200px;
+       margin-left: 10px;
+       margin-top: 0;
+    }
+    #fo_text2 {
+       margin-left: 0;
+       margin-top: 0;
+       margin-bottom: 100px;
+    }
+   
+    #copy {
+       padding-top: 20px;
+    }
+  }
+
+  @media screen and (min-width:500px) {
+    header h1 {
+      width: 350px;
+      padding-left: 40px;
+      font-size: 50px;
+    }
+    .aaaa {
+      width: 100px;
+      height: 150px;
+      padding-top: 3px;
+    }
+    
+    
+    nav ul li {
+      text-align: center;
+    }
+    
+
+    #yoyaku_1{
+        width: 450px;
+        margin-left: 0px;
+    }
+    #yoyaku_2{
+        width: 450px;
+        margin-left: 0px;
+    }
+    .Form {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .Form-Item-Input{
+        width: 450px;
+        height: 40px;
+    }
+    .Form-Item-Textarea{
+        width: 480px;
+    }
+    .Form-Btn{
+        margin-left: 200px;
+    }
+
+
+    #top{
+        margin-left: 1000px;
+    }
+    
+    footer {
+      height: 400px;
+    }
+    #fo_logo h1 {
+      width: 220px;
+    }
+    
+  }
+
